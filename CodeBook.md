@@ -5,7 +5,7 @@ This code book summarizes the resulting data fields in tidy.txt file in this pro
 
 #The Data
 
-The data that is used in this dataset is from the experiments that have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The source to this data set can be found at the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip*. 
+The data that is used in this dataset is from the experiments that have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The source to this data set can be found at the [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 As a part of this project this data has been worked on, cleaned to get inly the means and the standard deviations of the measured variables. The variables in the dataset are explained below.
 
@@ -15,39 +15,72 @@ As a part of this project this data has been worked on, cleaned to get inly the 
 The variables of the final data set are 
 
 
-*subject                                    *activity                                   
- *timeBodyAccelerometerMean-X                 *timeBodyAccelerometerMean-Y                
- * timeBodyAccelerometerMean-Z                 *timeBodyAccelerometerSD-X                  
- * timeBodyAccelerometerSD-Y                   *timeBodyAccelerometerSD-Z                  
- * timeGravityAccelerometerMean-X              *timeGravityAccelerometerMean-Y             
-* timeGravityAccelerometerMean-Z              *timeGravityAccelerometerSD-X               
-* timeGravityAccelerometerSD-Y                *timeGravityAccelerometerSD-Z               
-* timeBodyAccelerometerJerkMean-X             *timeBodyAccelerometerJerkMean-Y            
-* timeBodyAccelerometerJerkMean-Z             *timeBodyAccelerometerJerkSD-X              
-* timeBodyAccelerometerJerkSD-Y               *timeBodyAccelerometerJerkSD-Z              
-* timeBodyGyroscopeMean-X                     *timeBodyGyroscopeMean-Y                    
-* timeBodyGyroscopeMean-Z                     *timeBodyGyroscopeSD-X                      
-* timeBodyGyroscopeSD-Y                       *timeBodyGyroscopeSD-Z                      
-* timeBodyGyroscopeJerkMean-X                 *timeBodyGyroscopeJerkMean-Y                
-* timeBodyGyroscopeJerkMean-Z                 *timeBodyGyroscopeJerkSD-X                  
-* timeBodyGyroscopeJerkSD-Y                   *timeBodyGyroscopeJerkSD-Z                  
-* timeBodyAccelerometerMagnitudeMean          *timeBodyAccelerometerMagnitudeSD           
-* timeGravityAccelerometerMagnitudeMean       *timeGravityAccelerometerMagnitudeSD        
-* timeBodyAccelerometerJerkMagnitudeMean      *timeBodyAccelerometerJerkMagnitudeSD       
-* timeBodyGyroscopeMagnitudeMean              *timeBodyGyroscopeMagnitudeSD               
-* timeBodyGyroscopeJerkMagnitudeMean          *timeBodyGyroscopeJerkMagnitudeSD           
-* frequencyBodyAccelerometerMean-X            *frequencyBodyAccelerometerMean-Y           
-* frequencyBodyAccelerometerMean-Z            *frequencyBodyAccelerometerSD-X             
-* frequencyBodyAccelerometerSD-Y              *frequencyBodyAccelerometerSD-Z             
-* frequencyBodyAccelerometerJerkMean-X        *frequencyBodyAccelerometerJerkMean-Y       
-* frequencyBodyAccelerometerJerkMean-Z        *frequencyBodyAccelerometerJerkSD-X         
-* frequencyBodyAccelerometerJerkSD-Y          *frequencyBodyAccelerometerJerkSD-Z         
-* frequencyBodyGyroscopeMean-X                *frequencyBodyGyroscopeMean-Y               
-* frequencyBodyGyroscopeMean-Z                *frequencyBodyGyroscopeSD-X                 
-* frequencyBodyAccelerometerMagnitudeMean     *frequencyBodyAccelerometerMagnitudeSD      
-* frequencyBodyAccelerometerJerkMagnitudeMean *frequencyBodyAccelerometerJerkMagnitudeSD  
-* frequencyBodyGyroscopeMagnitudeMean         *frequencyBodyGyroscopeMagnitudeSD          
-* frequencyBodyGyroscopeJerkMagnitudeMean     *frequencyBodyGyroscopeJerkMagnitudeSD 
+*subject                                 
+*activity                                   
+*timeBodyAccelerometerMean-X     
+*timeBodyAccelerometerMean-Y                
+* timeBodyAccelerometerMean-Z                 
+*timeBodyAccelerometerSD-X                  
+* timeBodyAccelerometerSD-Y                   
+*timeBodyAccelerometerSD-Z                  
+* timeGravityAccelerometerMean-X              
+*timeGravityAccelerometerMean-Y             
+* timeGravityAccelerometerMean-Z              
+*timeGravityAccelerometerSD-X               
+* timeGravityAccelerometerSD-Y                
+*timeGravityAccelerometerSD-Z               
+* timeBodyAccelerometerJerkMean-X             
+*timeBodyAccelerometerJerkMean-Y            
+* timeBodyAccelerometerJerkMean-Z             
+*timeBodyAccelerometerJerkSD-X              
+* timeBodyAccelerometerJerkSD-Y               
+*timeBodyAccelerometerJerkSD-Z              
+* timeBodyGyroscopeMean-X                     
+*timeBodyGyroscopeMean-Y                    
+* timeBodyGyroscopeMean-Z                     
+*timeBodyGyroscopeSD-X                      
+* timeBodyGyroscopeSD-Y                       
+*timeBodyGyroscopeSD-Z                      
+* timeBodyGyroscopeJerkMean-X                 
+*timeBodyGyroscopeJerkMean-Y                
+* timeBodyGyroscopeJerkMean-Z                 
+*timeBodyGyroscopeJerkSD-X                  
+* timeBodyGyroscopeJerkSD-Y                   
+*timeBodyGyroscopeJerkSD-Z                  
+* timeBodyAccelerometerMagnitudeMean          
+*timeBodyAccelerometerMagnitudeSD           
+* timeGravityAccelerometerMagnitudeMean       
+*timeGravityAccelerometerMagnitudeSD        
+* timeBodyAccelerometerJerkMagnitudeMean      
+*timeBodyAccelerometerJerkMagnitudeSD       
+* timeBodyGyroscopeMagnitudeMean              
+*timeBodyGyroscopeMagnitudeSD               
+* timeBodyGyroscopeJerkMagnitudeMean          
+*timeBodyGyroscopeJerkMagnitudeSD           
+* frequencyBodyAccelerometerMean-X            
+*frequencyBodyAccelerometerMean-Y           
+* frequencyBodyAccelerometerMean-Z            
+*frequencyBodyAccelerometerSD-X             
+* frequencyBodyAccelerometerSD-Y              
+*frequencyBodyAccelerometerSD-Z             
+* frequencyBodyAccelerometerJerkMean-X        
+*frequencyBodyAccelerometerJerkMean-Y       
+* frequencyBodyAccelerometerJerkMean-Z        
+*frequencyBodyAccelerometerJerkSD-X         
+* frequencyBodyAccelerometerJerkSD-Y          
+*frequencyBodyAccelerometerJerkSD-Z         
+* frequencyBodyGyroscopeMean-X                
+*frequencyBodyGyroscopeMean-Y               
+* frequencyBodyGyroscopeMean-Z                
+*frequencyBodyGyroscopeSD-X                 
+* frequencyBodyAccelerometerMagnitudeMean     
+*frequencyBodyAccelerometerMagnitudeSD      
+* frequencyBodyAccelerometerJerkMagnitudeMean 
+*frequencyBodyAccelerometerJerkMagnitudeSD  
+* frequencyBodyGyroscopeMagnitudeMean         
+*frequencyBodyGyroscopeMagnitudeSD          
+* frequencyBodyGyroscopeJerkMagnitudeMean     
+*frequencyBodyGyroscopeJerkMagnitudeSD 
 
 ##Variable Explanation
 
