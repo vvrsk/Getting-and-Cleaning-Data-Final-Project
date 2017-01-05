@@ -2,7 +2,7 @@
 #### This project is submitted for the final submission for the *Getting and the Cleaning Data*
 
 
-The script in the submission does the following:
+###The script in the submission does the following:
 
 *Download the file if it is not already available in the folder 
 
