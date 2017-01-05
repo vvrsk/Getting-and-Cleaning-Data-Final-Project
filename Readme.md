@@ -1,7 +1,9 @@
 ##Instructions for the usage of the code
-#### This project is submitted for the final submission for the *Getting and the Cleaning Data
+#### This project is submitted for the final submission for the *Getting and the Cleaning Data*
 
-*The script in the submission does the following:
+
+The script in the submission does the following:
+
 *Download the file if it is not already available in the folder.
 *Load the activity and features info from the files.
 *Loads both the training and test datasets from the directory, keeping only those columns which reflect a mean or standard deviation
